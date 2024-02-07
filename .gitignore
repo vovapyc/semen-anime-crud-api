@@ -1,0 +1,30 @@
+# Ignore anime.db file
+app/anime.db
+
+# Ignore venv folder
+venv/
+
+# Ignore generated files and folders
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore database migrations
+migrations/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore package files
+*.egg-info/
+dist/
+build/
